@@ -1,3 +1,7 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+   //ソースコード内でシングルクォートを使うと、VS Code がエラーを表示するように設定
+  "rules": {
+    "quotes": ["error", "double"]
+  }
 }
